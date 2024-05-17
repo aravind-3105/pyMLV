@@ -1,8 +1,8 @@
 # pyMLV
 Python version of the Mid-level Vision Toolbox (MLVToolbox) created by the BWLab at the University of Toronto.
 
+<img src='https://bwlabtoronto.github.io/pyMLV/images/Logo_Banner.png' width="40%">
 
-<img src='images/Logo_Banner.png' width=40%> 
 <hr>
 
 The Mid-level Vision Toolbox (MLVToolbox) was created by the BWLab at the University of Toronto as a tool for researchers to extract structural properties of contours such as orientation, length, curvature and junctions present in images. MLVToolbox allows researchers to quantify the presence of perceptual organization cues such as mirror symmetry, ribbon symmetry, and taper symmetry using medial axis properties of contours in naturalistic images. MLVToolbox also provides researchers with a free and easy way to extract visual statistics that underlie our experience of surfaces, objects, scenes and even works of art. It will facilitate reproducible experimental stimulus sets using built-in functions that manipulate contours in images based on one or several mid-level vision properties. In addition, MLVToolbox offers several visualization functions for tracing contour orientations, lengths, curvature, junctions, as well as, medial axis properties on computer-generated and artist-generated line drawings. A contour extraction functionality helps users obtain computer-generated line drawings from real-world photographs. To encourage researcher's exploration of its potential, we have provided several example datasets produced using the MLVToolbox.
@@ -44,13 +44,13 @@ Note: The medial axis demo at the moment needs the imgLD from the MATLAB version
 
 **Computing Medial Axis Properties**
 
-<img src='images/medial_axis_transform.png' width=70%> 
+<img src='https://bwlabtoronto.github.io/pyMLV/images/medial_axis_transform.png' width="70%">
 
 Using MLV, one can compute accurate AOF-based medial axis transform (MAT) from binary images. These images can either be rendered from LineDrawing (LD) datastructures (check out renderLinedrawing.m function) or be binary images from other sources. Like the example (bunny) above shows, there are some intermediate steps in the process of extracting MAT, including the extraction of the distance map as well as the extraction of the average outward flux map (AOF). This information along with the skeleton is stored in the MAT computed from a binary image. Please see the following example of a mountain scene where the average outward flux map (AOF) is computed from the binary image. 
 
 Output:
 
-<img src='images/fluxOutput.png' width=70%>
+<img src='https://bwlabtoronto.github.io/pyMLV/images/fluxOutput.png' width="70%">
 
 ## Datasets
 
